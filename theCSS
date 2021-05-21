@@ -1,0 +1,10 @@
+/* Copy and paste this into OBS's CSS box */
+/* not guaranteed to work with OBS derivitives and streamlabs settings that are not the same as my settings (lol) */
+
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+.message, .name {/*-webkit-text-stroke-width: 0.07em; -webkit-text-stroke-color: #444444;*/
+	text-shadow: 1px 1px 3px #000000, -1px 1px 3px #000000, -1px -1px 3px #000000, 1px -1px 3px #000000;
+}
+
+.message {color: #eeeeee;}
